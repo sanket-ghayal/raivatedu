@@ -1,0 +1,7 @@
+.form { display: flex; gap: var(--space-2); max-width: 520px; padding: var(--space-2); background: var(--color-surface); border: 2px solid var(--color-indigo-600); border-radius: var(--radius-pill); }
+.form:focus-within { box-shadow: 0 0 0 4px rgba(250, 204, 21, 0.6); }
+.input { flex: 1; min-width: 0; padding: var(--space-2) var(--space-4); border: 0; background: none; font: inherit; color: inherit; }
+.input:focus { outline: none; }
+.button { padding: var(--space-2) var(--space-6); border: 0; border-radius: var(--radius-pill); background: var(--color-indigo-600); color: #fff; font: inherit; font-weight: 700; cursor: pointer; transition: background 0.15s; }
+.button:hover { background: var(--color-indigo-700); }
+.button:active { transform: scale(0.97); }
