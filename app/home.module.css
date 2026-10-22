@@ -1,0 +1,27 @@
+.hero { padding-top: var(--space-8); }
+.heroGrid { display: grid; gap: var(--space-8); align-items: center; }
+.heroImage { width: 100%; height: auto; max-width: 480px; justify-self: center; }
+.popular { margin-top: var(--space-4); color: var(--color-muted); }
+.popular a { color: var(--color-indigo-600); font-weight: 700; }
+.categories { display: grid; gap: var(--space-4); grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); }
+.category { display: grid; gap: var(--space-1); padding: var(--space-6); background: var(--color-surface); border: 2px solid var(--color-border); border-radius: var(--radius-lg); text-decoration: none; transition: transform 0.2s, border-color 0.2s, background 0.2s; }
+.category:hover { transform: translateY(-4px); border-color: var(--color-indigo-600); background: var(--color-indigo-100); }
+.category span:last-child { color: var(--color-muted); font-size: var(--text-sm); }
+.categoryIcon { font-size: 2rem; }
+.more { margin-top: var(--space-8); }
+.mentor { padding: var(--space-6); background: var(--color-surface); border: 2px solid var(--color-border); border-radius: var(--radius-lg); }
+.mentor h3 { margin-bottom: var(--space-1); }
+.mentor p { color: var(--color-muted); }
+.role { font-weight: 700; color: var(--color-indigo-600) !important; }
+.avatar { display: grid; place-items: center; width: 64px; height: 64px; margin-bottom: var(--space-4); border-radius: 50%; background: var(--color-yellow-400); color: var(--color-indigo-900); font-family: var(--font-heading), sans-serif; font-weight: 700; font-size: var(--text-lg); }
+.stats { background: var(--color-indigo-900); color: #fff; }
+.statGrid { display: grid; gap: var(--space-6); grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); margin: 0; }
+.statGrid dd { margin: 0; color: #e0e7ff; }
+.statValue { font-family: var(--font-heading), sans-serif; font-weight: 700; font-size: var(--text-2xl); color: var(--color-yellow-400); }
+.quote { margin: 0; padding: var(--space-6); background: var(--color-surface); border-left: 6px solid var(--color-yellow-400); border-radius: var(--radius-md); }
+.quote blockquote { margin: 0 0 var(--space-4); font-size: var(--text-lg); }
+.quote figcaption { color: var(--color-muted); }
+.faq { max-width: 760px; }
+.cta { padding-block: var(--space-12); text-align: center; background: var(--color-indigo-600); color: #fff; border-radius: var(--radius-lg); }
+.cta p { color: #e0e7ff; }
+@media (min-width: 900px) { .heroGrid { grid-template-columns: 1.1fr 1fr; } }
