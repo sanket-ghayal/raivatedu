@@ -1,0 +1,11 @@
+.controls { display: grid; gap: var(--space-4); grid-template-columns: 1fr; margin-bottom: var(--space-4); }
+.field { display: grid; gap: var(--space-1); font-weight: 700; font-size: var(--text-sm); }
+.field input, .field select { padding: var(--space-3) var(--space-4); border: 2px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface); font: inherit; color: inherit; }
+.field input:hover, .field select:hover { border-color: var(--color-indigo-600); }
+.chips { display: flex; flex-wrap: wrap; gap: var(--space-2); margin-bottom: var(--space-4); }
+.chip { padding: var(--space-2) var(--space-4); border: 2px solid var(--color-indigo-600); border-radius: var(--radius-pill); background: transparent; color: var(--color-indigo-600); font: inherit; font-weight: 700; cursor: pointer; transition: background 0.15s; }
+.chip:hover { background: var(--color-indigo-100); }
+.chip[aria-pressed="true"] { background: var(--color-indigo-600); color: #fff; }
+.count { color: var(--color-muted); }
+.empty { padding: var(--space-12) var(--space-4); text-align: center; background: var(--color-surface); border: 2px dashed var(--color-border); border-radius: var(--radius-lg); }
+@media (min-width: 768px) { .controls { grid-template-columns: 2fr 1fr; } }
