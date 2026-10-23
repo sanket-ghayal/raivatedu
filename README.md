@@ -2,7 +2,7 @@
 **Repo:** https://github.com/sanket-ghayal/raivatedu
 
 ## Lighthouse (mobile)
-Measured with Lighthouse in Chrome DevTools (mobile emulation) on the live Vercel link.
+Measured with Lighthouse in browser DevTools (mobile emulation) on the live Vercel link.
 Performance 98 · Accessibility 100 · Best Practices 100 · SEO 100
 
 ![Lighthouse mobile scores](docs/lighthouse-mobile.png)
