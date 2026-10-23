@@ -6,7 +6,7 @@ import "./globals.css";
 // next/font downloads fonts at build time and self-hosts them (fast, no layout shift)
 const heading = Poppins({
   subsets: ["latin"],
-  weight: ["600", "700"],
+  weight: ["700"],
   variable: "--font-heading",
   display: "swap",
 });
