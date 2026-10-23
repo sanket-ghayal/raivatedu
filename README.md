@@ -1,4 +1,13 @@
-# Raivatedu: Education Marketing Website
+**Live site:** https://raivatedu-tawny.vercel.app
+**Repo:** https://github.com/sanket-ghayal/raivatedu
+
+## Lighthouse (mobile)
+Measured with Lighthouse in Chrome DevTools (mobile emulation) on the live Vercel link.
+Performance 94 · Accessibility 100 · Best Practices 100 · SEO 100
+
+![Lighthouse mobile scores](docs/lighthouse-mobile.png)
+
+# Raivatedu: Education Marketing Website☻
 
 A 3-page marketing site built with Next.js (App Router), JavaScript and CSS Modules.
 Pages: Home, Courses listing (`/courses`), Course detail (`/courses/[slug]`).
