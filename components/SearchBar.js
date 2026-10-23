@@ -22,7 +22,7 @@ export default function SearchBar() {
         id="hero-search"
         className={styles.input}
         type="search"
-        placeholder="Try “python”, “design” or “marketing”"
+        placeholder="Search courses, e.g. python"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />

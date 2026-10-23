@@ -1,5 +1,5 @@
 .hero { padding-top: var(--space-8); }
-.heroGrid { display: grid; gap: var(--space-8); align-items: center; }
+.heroGrid { display: grid; gap: var(--space-8); align-items: center; grid-template-columns: minmax(0, 1fr); }
 .heroImage { width: 100%; height: auto; max-width: 480px; justify-self: center; }
 .popular { margin-top: var(--space-4); color: var(--color-muted); }
 .popular a { color: var(--color-indigo-600); font-weight: 700; }
@@ -24,4 +24,4 @@
 .faq { max-width: 760px; }
 .cta { padding-block: var(--space-12); text-align: center; background: var(--color-indigo-600); color: #fff; border-radius: var(--radius-lg); }
 .cta p { color: #e0e7ff; }
-@media (min-width: 900px) { .heroGrid { grid-template-columns: 1.1fr 1fr; } }
+@media (min-width: 900px) { .heroGrid { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); } }
