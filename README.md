@@ -3,7 +3,7 @@
 
 ## Lighthouse (mobile)
 Measured with Lighthouse in Chrome DevTools (mobile emulation) on the live Vercel link.
-Performance 94 · Accessibility 100 · Best Practices 100 · SEO 100
+Performance 98 · Accessibility 100 · Best Practices 100 · SEO 100
 
 ![Lighthouse mobile scores](docs/lighthouse-mobile.png)
 
